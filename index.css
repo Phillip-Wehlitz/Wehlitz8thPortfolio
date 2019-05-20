@@ -4,82 +4,88 @@ body {
 	margin: 0px;
 }
 .banner {
-  padding: 80px;
-  text-align: center;
-  background: #aaaaaa;
-  color: white;
+padding: 80px;
+text-align: center;
+background: #aaaaaa;
+color: white;
 }
 
 .banner h1 {
-  font-size: 40px;
+font-size: 40px;
 }
 
 .navbar {
-  overflow: hidden;
-  background-color: #bbbbbb;
+overflow: hidden;
+background-color: #bbbbbb;
 }
 
 
 .navbar a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
+float: left;
+display: block;
+color: white;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
 }
 
 
 .navbar a.right {
-  float: right;
+float: right;
 }
 
 .navbar a:hover {
-  background-color: #ddd;
-  padding: 14px 40px;
-  color: black;
+background-color: #ddd;
+padding: 14px 40px;
+color: black;
+}
+
+.navbar a.cur {
+background-color: #eee;
+padding: 14px 40px; 
+color: black;
 }
 
 * {
-  box-sizing: border-box;
+box-sizing: border-box;
 }
 
 .row { 
-  display: flex;
-  flex-wrap: wrap;
+display: flex;
+flex-wrap: wrap;
 }
 
 .side {
-  flex: 30%;
-  background-color: #f1f1f1;
-  padding: 20px;
-  position: sticky;
+flex: 30%;
+background-color: #f1f1f1;
+padding: 20px;
+position: sticky;
 }
 
 
 .main { 
-  flex: 70%;
-  background-color: white;
-  padding: 20px;
-  height: 2000px;
+flex: 70%;
+background-color: white;
+padding: 20px;
+height: 2000px;
 }
 
 @media screen and (max-width: 700px) {
-  .row { 
-    flex-direction: column;
-  }
+.row { 
+flex-direction: column;
+}
 }
 
 
 @media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width: 100%;
-  }
+.navbar a {
+float: none;
+width: 100%;
+}
 }
 
 .footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
+padding: 20px;
+text-align: center;
+background: #ddd;
 }
